@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "greca-house",
+  "owner": {
+    "name": "Greca House",
+    "email": "info@grecahouse.com",
+    "url": "https://grecahouse.com"
+  },
+  "plugins": [
+    {
+      "name": "greca-house",
+      "source": "./",
+      "description": "Greek property search, listing details, dated Greca House asking-price research and Greece buying-cost estimates (read-only).",
+      "version": "1.0.0"
+    }
+  ]
+}
