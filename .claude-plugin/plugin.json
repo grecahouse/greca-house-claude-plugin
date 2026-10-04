@@ -10,7 +10,7 @@
     "url": "https://grecahouse.com"
   },
   "homepage": "https://grecahouse.com/en",
-  "repository": "https://github.com/mgladkish/greca-house-claude-plugin",
+  "repository": "https://github.com/grecahouse/greca-house-claude-plugin",
   "license": "MIT",
   "keywords": [
     "greece",
@@ -21,7 +21,7 @@
     "research"
   ],
   "icon": "./assets/icon.png",
-  "documentationUrl": "https://github.com/mgladkish/greca-house-claude-plugin#readme",
+  "documentationUrl": "https://github.com/grecahouse/greca-house-claude-plugin#readme",
   "supportUrl": "https://grecahouse.com/en/contact",
   "privacyPolicyUrl": "https://grecahouse.com/en/privacy-policy",
   "termsOfServiceUrl": "https://grecahouse.com/en/terms-of-service"

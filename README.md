@@ -43,8 +43,24 @@ https://grecahouse.com/en/privacy-policy
 In Claude Code:
 
 ```
-/plugin marketplace add mgladkish/greca-house-claude-plugin
+/plugin marketplace add grecahouse/greca-house-claude-plugin
 /plugin install greca-house@greca-house
+```
+
+## Update
+
+```
+/plugin marketplace update greca-house
+/plugin update greca-house@greca-house
+```
+
+Restart Claude Code to load the new version.
+
+## Uninstall
+
+```
+/plugin uninstall greca-house@greca-house
+/plugin marketplace remove greca-house
 ```
 
 Support: https://grecahouse.com/en/contact
