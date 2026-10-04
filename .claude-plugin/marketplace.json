@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "greca-house",
+  "description": "Greca House's read-only Greek property plugin: its current listings, dated asking-price research and Greek buying-cost estimates.",
   "owner": {
     "name": "Greca House",
     "email": "info@grecahouse.com",
@@ -11,7 +12,7 @@
       "name": "greca-house",
       "source": "./",
       "description": "Greek property search, listing details, dated Greca House asking-price research and Greece buying-cost estimates (read-only).",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }

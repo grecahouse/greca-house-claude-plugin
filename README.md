@@ -9,6 +9,8 @@ Greca House is an independent real-estate brokerage in central Athens.
 The plugin declares one remote MCP server, `https://grecahouse.com/mcp` (HTTP, read-only, no sign-in).
 It runs nothing on your machine and asks for no credentials.
 
+It also includes one skill, `greek-property-search`, a plain-text guide that tells Claude which tool to use for searches, budgets and costs and how to state the scope of every figure. The skill runs no code and fetches nothing itself.
+
 | Tool | What it does |
 | --- | --- |
 | `search_greece_properties` | Search Greca House's current public listings by area, region, sale or rent, type, price, bedrooms (exact or range), size, media and Golden Visa classification |
