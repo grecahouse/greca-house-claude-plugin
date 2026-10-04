@@ -34,7 +34,8 @@ https://grecahouse.com/en/privacy-policy
 - Results are Greca House's own listings, not every property in Greece. Prices are asking prices.
 - Research is a dated snapshot of those listings' asking prices: not a forecast, a trend or a whole-market index.
 - A Golden Visa classification is Greca House's office classification of the property route. It does not
-  decide an applicant's eligibility and is not legal advice.
+  decide an applicant's eligibility or the transaction's compliance and is not legal advice; confirm
+  your own case with a qualified Greek lawyer.
 - Buying-cost estimates are not legal or tax advice; lawyer, engineer and agency fees are never estimated
   as percentages, only added from amounts you give.
 - Buying-cost estimates use the rates in force when they were read. A change the government has announced
