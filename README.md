@@ -9,6 +9,8 @@ Greca House is an independent real-estate brokerage in central Athens.
 The plugin declares one remote MCP server, `https://grecahouse.com/mcp` (HTTP, read-only, no sign-in).
 It runs nothing on your machine and asks for no credentials.
 
+It also includes one skill, `greek-property-search`, a plain-text guide that tells Claude which tool to use for searches, budgets and costs and how to state the scope of every figure. The skill runs no code and fetches nothing itself.
+
 | Tool | What it does |
 | --- | --- |
 | `search_greece_properties` | Search Greca House's current public listings by area, region, sale or rent, type, price, bedrooms (exact or range), size, media and Golden Visa classification |
@@ -32,7 +34,8 @@ https://grecahouse.com/en/privacy-policy
 - Results are Greca House's own listings, not every property in Greece. Prices are asking prices.
 - Research is a dated snapshot of those listings' asking prices: not a forecast, a trend or a whole-market index.
 - A Golden Visa classification is Greca House's office classification of the property route. It does not
-  decide an applicant's eligibility and is not legal advice.
+  decide an applicant's eligibility or the transaction's compliance and is not legal advice; confirm
+  your own case with a qualified Greek lawyer.
 - Buying-cost estimates are not legal or tax advice; lawyer, engineer and agency fees are never estimated
   as percentages, only added from amounts you give.
 - Buying-cost estimates use the rates in force when they were read. A change the government has announced
