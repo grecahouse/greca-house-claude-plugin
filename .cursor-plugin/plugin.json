@@ -1,0 +1,31 @@
+{
+  "name": "greca-house",
+  "displayName": "Greca House: Greek Property",
+  "version": "1.1.0",
+  "description": "Greek property search, listing details, dated Greca House asking-price research and Greece buying-cost estimates, from the independent Athens brokerage Greca House. Read-only; no account or API key.",
+  "author": {
+    "name": "Greca House",
+    "email": "info@grecahouse.com"
+  },
+  "homepage": "https://grecahouse.com/en",
+  "repository": "https://github.com/grecahouse/greca-house-claude-plugin",
+  "license": "MIT",
+  "logo": "assets/icon.png",
+  "keywords": [
+    "greca house",
+    "greece",
+    "real-estate",
+    "property",
+    "athens",
+    "buying-costs"
+  ],
+  "category": "integrations",
+  "tags": [
+    "greca-house",
+    "real-estate",
+    "greece",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
