@@ -9,7 +9,7 @@ Greca House is an independent real-estate brokerage in central Athens.
 The plugin declares one remote MCP server, `https://grecahouse.com/mcp` (HTTP, read-only, no sign-in).
 It runs nothing on your machine and asks for no credentials.
 
-It also includes one skill, `greek-property-search`, a plain-text guide that tells Claude which tool to use for searches, budgets and costs and how to state the scope of every figure. The skill runs no code and fetches nothing itself.
+It also includes one skill, `greek-property-search`, a plain-text guide that tells the assistant which tool to use for searches, budgets and costs and how to state the scope of every figure. The skill runs no code and fetches nothing itself.
 
 | Tool | What it does |
 | --- | --- |
@@ -21,7 +21,7 @@ It also includes one skill, `greek-property-search`, a plain-text guide that tel
 
 ## What is sent, and what is kept
 
-When Claude calls a tool, it sends only that tool's arguments (for example an area, a budget, a property
+When the assistant calls a tool, it sends only that tool's arguments (for example an area, a budget, a property
 type or a listing reference) to `grecahouse.com`. Your conversation, name and contact details are not
 sent. Nothing creates an enquiry or stores your request. Like every request to the website, each call is
 recorded in Google Cloud request logs (time, path, result, the calling server's address and software,
@@ -65,5 +65,20 @@ Restart Claude Code to load the new version.
 /plugin uninstall greca-house@greca-house
 /plugin marketplace remove greca-house
 ```
+
+## Other agents
+
+The same package works in agents that read this plugin layout. Each points at the same read-only server;
+nothing else is installed.
+
+- **Cursor:** `.cursor-plugin/plugin.json` and `mcp.json`. Once listed in the Cursor Marketplace, install
+  it from there. Until then, add the server yourself in `~/.cursor/mcp.json`:
+
+  ```json
+  { "mcpServers": { "greca-house": { "url": "https://grecahouse.com/mcp" } } }
+  ```
+
+- **Grok Build:** reads `.claude-plugin/plugin.json` and `.mcp.json`. Once listed in the xAI plugin
+  marketplace, type `/marketplace` and install `greca-house`.
 
 Support: https://grecahouse.com/en/contact
