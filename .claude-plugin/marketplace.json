@@ -12,7 +12,7 @@
       "name": "greca-house",
       "source": "./",
       "description": "Greek property search, listing details, dated Greca House asking-price research and Greece buying-cost estimates (read-only).",
-      "version": "1.1.0"
+      "version": "1.1.1"
     }
   ]
 }
