@@ -4,6 +4,18 @@ Search Greca House's current property listings in Greece, open a listing, compar
 asking-price research by area or budget, and estimate the costs of buying a resale property in Greece.
 Greca House is an independent real-estate brokerage in central Athens.
 
+## Example requests
+
+- "Find 2-bedroom apartments in Athens up to €300,000."
+- "Which commercial buildings or hotels does Greca House have for sale in Attica?"
+- "Show Greca House listings classified under a Golden Visa property route, up to €400,000."
+- "Give me the details, photos and 3D tour of GH-108420."
+- "Compare asking prices in Kolonaki and Pangrati in Greca House's research."
+- "What would buying a €250,000 resale apartment in Greece cost on top of the price?"
+
+The assistant answers from Greca House's own current listings and dated research and says what each
+figure covers: which regions, whether a price cap includes the cap, and the snapshot date.
+
 ## What it connects to
 
 The plugin declares one remote MCP server, `https://grecahouse.com/mcp` (HTTP, read-only, no sign-in).
