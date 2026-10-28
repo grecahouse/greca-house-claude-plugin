@@ -8,7 +8,6 @@ Greca House is an independent real-estate brokerage in central Athens.
 
 - "Find 2-bedroom apartments in Athens up to €300,000."
 - "Which commercial buildings or hotels does Greca House have for sale in Attica?"
-- "Show Greca House listings classified under a Golden Visa property route, up to €400,000."
 - "Give me the details, photos and 3D tour of GH-108420."
 - "Compare asking prices in Kolonaki and Pangrati in Greca House's research."
 - "What would buying a €250,000 resale apartment in Greece cost on top of the price?"
@@ -44,10 +43,9 @@ https://grecahouse.com/en/privacy-policy
 ## Limits
 
 - Results are Greca House's own listings, not every property in Greece. Prices are asking prices.
-- Research is a dated snapshot of those listings' asking prices: not a forecast, a trend or a whole-market index.
-- A Golden Visa classification is Greca House's office classification of the property route. It does not
-  decide an applicant's eligibility or the transaction's compliance and is not legal advice; confirm
-  your own case with a qualified Greek lawyer.
+- Research is a dated snapshot of the asking prices on Greca House's own listings.
+- The Golden Visa classification is Greca House's own classification of a listing's property route. It is
+  not legal advice; confirm your own case with a qualified Greek lawyer.
 - Buying-cost estimates are not legal or tax advice; lawyer, engineer and agency fees are never estimated
   as percentages, only added from amounts you give.
 - Buying-cost estimates use the rates in force when they were read. A change the government has announced
