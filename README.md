@@ -15,6 +15,24 @@ Greca House is an independent real-estate brokerage in central Athens.
 The assistant answers from Greca House's own current listings and dated research and says what each
 figure covers: which regions, whether a price cap includes the cap, and the snapshot date.
 
+## Use it in Claude (web, desktop, mobile and Cowork)
+
+Adding the plugin gives Claude the Greca House skill. Claude does not add the plugin's connector for you, so there is one more step before it can search Greca House's listings.
+
+1. Open Customize > Plugins, find "Greca House: Greek Property" under Discover, and click Add.
+2. Open the plugin, go to its Connectors tab, and add the connector listed there. It points to https://grecahouse.com/mcp.
+3. The connector needs no sign-in. Claude may label it Custom and show a notice that custom connectors reach services it has not verified. The label means the connector was added by address. This one is read-only, and what it sends is listed under "What is sent, and what is kept" below.
+4. In a new chat, click + then Connectors, and make sure the Greca House connector is switched on.
+5. Ask about Greek property. The first time Claude uses a Greca House tool it may ask for approval: choose Allow once or Always allow.
+
+If Claude answers without searching Greca House's listings, check step 4 first.
+
+In Cowork, install the plugin the same way, then connect the connector from the plugin's Connectors tab.
+
+On Team and Enterprise plans an Owner adds the connector once under Organization settings > Connectors, and members then connect it with their own account. Plugins need a paid plan. On the Free plan you can still add the connector yourself: in Customize > Connectors, add a custom connector with the address https://grecahouse.com/mcp and choose no sign-in.
+
+Do steps 1 and 2 on claude.ai or in the desktop app. Once the connector is added, it is available in the mobile app too, where you switch it on under + > Connectors.
+
 ## What it connects to
 
 The plugin declares one remote MCP server, `https://grecahouse.com/mcp` (HTTP, read-only, no sign-in).
